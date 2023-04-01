@@ -11,6 +11,7 @@ print(3 * "ha")  # hahaha
 
 # Strings are indexed starting with 0, -1 will be last one
 msg = "I elov you"
+
 msg[0]  # Shows "I", [1] shows space, anything outside is an error
 # Note that this DOES NOT WORK with numbers
 

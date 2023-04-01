@@ -1,13 +1,13 @@
 # break - we can use this keyword to prematurely exit a loop. Usually done inside of a conditional
 
-import random from int
+# import random from int
 import random
 for char in "apple":
     if char == 'l':
         break
-    print(char)
+    print(char) # a p p
 
-print('After Loop')  # a p p afterloop
+print('After Loop')  # afterloop
 
 # continue - ends the current iteration of the loop, but does not break out
 

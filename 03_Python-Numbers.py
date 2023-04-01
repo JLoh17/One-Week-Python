@@ -1,4 +1,3 @@
-# Run command: ctrl + option + n
 # Command + D: finds duplicates in vscode
 
 # Printing to the console (this is a function)
@@ -8,8 +7,8 @@ print("Hello World")
 ########## PYTHON NUMBERS ##########
 
 # Integers - whole numbers only, no decimal points (unbounded starting in Python 3 meaning the number can go as long as you want)
-# Ints cannot start with a 0
-# Floats - with a decimal point (they are bounded) (e.g. 0.8 or even .8)
+# Int cannot start with a 0
+# Float - with a decimal point (they are bounded) (e.g. 0.8 or even .8)
 # Takes more memory to do more math with floats
 
 type(2)  # shows the type
@@ -21,10 +20,10 @@ type(2)  # shows the type
 print(1 and 4)  # 4
 
 # ** is exponentiation
-# "//" is integer division, it essentially rounds down
-print(10 // 3)  # 2
+# "//" is integer divisio, it essentially rounds down
+print(10 // 4)  # 2
 
-# % is modulo - commonly used to determine odd or even
+# % is modulo - gives the reaminder; commonly used to determine odd or even
 print(10 % 7)  # 3
 
 # Comments have to start #

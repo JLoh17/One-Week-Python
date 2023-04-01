@@ -6,7 +6,7 @@ age = age + 1  # We can update the age by doing this
 # variable123 (never start with a digit)
 # first_name (camel case works but snake case is better for Python)
 
-# If uppercase, normally it means a constant
+# If all uppercase, normally it means a constant
 
 # Assignment operators
 # +=, -=, *=, /=, //=, **=

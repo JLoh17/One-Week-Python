@@ -15,8 +15,7 @@ msg.lower()  # hell world
 # Strip methods
 # Strip removes whitespace (incl \n) from trailing and leading space only (not in between)
 # str.strip([chars])  # [] means optional
-",,.,.,.hello.,.,.,.,.".strip(".,")
-# removes . or , at the beginning or end, not a combination
+",,.,.,.hello.,.,.,.,.".strip(".,") # removes . or , at the beginning or end, not a combination
 str.lstrip()  # removes to the left (i.e. leading)
 str.rstrip()  # removes to the right (i.e. trailing)
 

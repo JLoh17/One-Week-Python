@@ -2,8 +2,7 @@
 
 # logic 'and'
 # Evaluates to True only if both left and right sides of the "and" evaluate to true, otherwise it's false
-# 'a' == 'a' and 1 < 5 // True
-# 'a' == 'a' true, 1 < 5 true
+'a' == 'a' and 1 < 5 # True
 
 # A and B (if one side false then both false)
 

@@ -47,11 +47,6 @@ elif age > 65:
 else:
     print('Your adult ticket is $14')
 
-# asks for first name
-# last name
-# xxx is shorter than average american name
-# 12 characters long
-
 # Generating random numbers
 # Comes with python, no need to download but need to import
 

@@ -5,12 +5,11 @@
 # Length - len() will the return the length of a string; error for numbers
 len('hello')  # length: 5, spaces don't count, ! counts
 
-help(len)  # help is another function that explains functions
+# help(len)  # help is another function that explains functions
 # Press Q to quit
 
-# Input prompts a user to enter some input, converts it to a string and then returns it
-
-# to capture the input, you need to save it to a variable
+# Input prompts a user to enter some input, converts it to a STRING and then returns it
+# To capture the input, you need to save it to a variable
 first_name = input('what is your name? ')
 print("Hi there " + first_name)
 
