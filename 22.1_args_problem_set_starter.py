@@ -15,6 +15,13 @@ def contains_pickle(*args):
 contains_pickle("red", 45, "pickle", [])
 contains_pickle(1,2, "blue")
 
+###### Colt's Solution ######
+def contains_pickle(*args):
+    return "pickle" in args
+
+contains_pickle("red", 45, "pickle", [])
+contains_pickle(1,2, "blue")
+
 # ============== PART 2 ==============
 # Write a function called count_fails that counts up the number of failing test scores it is passes
 # It should accept any number of arguments
@@ -24,12 +31,12 @@ contains_pickle(1,2, "blue")
 # count_fails(85,78,91) ----------> 0
 # count_fails(50,41,47,74,76,81) -> 3
 
-def count_fails(*args):
-    fail_count = 0
-    for arg in args:
-        if arg <= 50:
-            fail_count+= 1
-    return fail_count
+def count_fails(*scores):
+    count = 0
+    for score in scores:
+        if score <= 50:
+            count += 1
+    return count
 
 count_fails(99,48,79,36)
 count_fails(85,78,91)
@@ -45,11 +52,11 @@ count_fails(50,41,47,74,76,81)
 # get_top_students(kitty=80, blue=95, toad=91)-----------> ['blue', 'toad']
 
 def get_top_students(**kwargs):
-    A_list = []
-    for k,v, in kwargs.items():
-        if v >= 90:
-            A_list.append(k)
-    return(A_list)
+    top_students = []
+    for student, score in kwargs.items():
+        if score >= 90:
+            top_students.append(student)
+    return(top_students)
 
 get_top_students(tim=91, stacy=83, carlos=97, jim=69)
 get_top_students(colt=61, elton=76)
