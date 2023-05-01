@@ -20,10 +20,10 @@ type(2)  # shows the type
 print(1 and 4)  # 4
 
 # ** is exponentiation
-# "//" is integer divisio, it essentially rounds down
+# "//" is integer division, it essentially rounds down
 print(10 // 4)  # 2
 
-# % is modulo - gives the reaminder; commonly used to determine odd or even
+# % is modulo - gives the remainder; commonly used to determine odd or even
 print(10 % 7)  # 3
 
 # Comments have to start #
